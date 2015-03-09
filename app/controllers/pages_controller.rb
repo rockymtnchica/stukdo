@@ -1,4 +1,7 @@
 class PagesController < ApplicationController
-  def curttest
+  def home
+  end
+
+  def about
   end
 end
