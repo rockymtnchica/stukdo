@@ -13,6 +13,7 @@ Rails.application.routes.draw do
   root 'pages#home'
 
   get 'about' => "pages#about" #this is a variable housing a route
+  get 'awesome' =>"pages#iam"
   #creating a comment to help track commits
 
   # Example of regular route:
